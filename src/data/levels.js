@@ -1,61 +1,61 @@
   // 关卡数据，第一季示例，后续可扩展
 export const levels = [
-  // 第一关示例：12个常用字母
-  {
-    id: 1,
-    desc: "常用字母练习1：a-l",
-    tasks: ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"],
-    area: 1,
-    season: 1,
-  },
-  // 第二关示例：12个常用字母
-  {
-    id: 2,
-    desc: "常用字母练习2：m-x",
-    tasks: ["m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x"],
-    area: 1,
-    season: 1,
-  },
-  // 插入：随机排列的单个字母练习A
-  {
-    id: 3,
-    desc: "随机单字母练习A",
-    tasks: ["d", "k", "a", "h", "e", "j", "b", "g", "c", "f", "i", "l"],
-    area: 1,
-    season: 1,
-  },
-  // 插入：随机排列的单个字母练习B
-  {
-    id: 4,
-    desc: "随机单字母练习B",
-    tasks: ["j", "b", "l", "c", "g", "a", "k", "d", "i", "e", "h", "f"],
-    area: 1,
-    season: 1,
-  },
-  // 第三关示例：12个常用字母（原id:3，现id:5）
-  {
-    id: 5,
-    desc: "常用字母组合练习",
-    tasks: ["y", "z", "aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh", "ii", "jj"],
-    area: 1,
-    season: 1,
-  },
-    // 随机两个字母组合关卡A
-  {
-    id: 6,
-    desc: "随机两个字母组合A",
-    tasks: ["ff", "jj", "aa", "bb", "cc", "dd", "ee", "gg", "hh", "ii", "kk", "ll"],
-    area: 1,
-    season: 1,
-  },
-  // 随机两个字母组合关卡B
-  {
-    id: 7,
-    desc: "随机两个字母组合B",
-    tasks: ["fj", "jf", "ab", "ba", "cd", "dc", "gh", "hg", "ik", "ki", "jl", "lj"],
-    area: 1,
-    season: 1,
-  },
+  // // 第一关示例：12个常用字母
+  // {
+  //   id: 1,
+  //   desc: "常用字母练习1：a-l",
+  //   tasks: ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"],
+  //   area: 1,
+  //   season: 1,
+  // },
+  // // 第二关示例：12个常用字母
+  // {
+  //   id: 2,
+  //   desc: "常用字母练习2：m-x",
+  //   tasks: ["m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x"],
+  //   area: 1,
+  //   season: 1,
+  // },
+  // // 插入：随机排列的单个字母练习A
+  // {
+  //   id: 3,
+  //   desc: "随机单字母练习A",
+  //   tasks: ["d", "k", "a", "h", "e", "j", "b", "g", "c", "f", "i", "l"],
+  //   area: 1,
+  //   season: 1,
+  // },
+  // // 插入：随机排列的单个字母练习B
+  // {
+  //   id: 4,
+  //   desc: "随机单字母练习B",
+  //   tasks: ["j", "b", "l", "c", "g", "a", "k", "d", "i", "e", "h", "f"],
+  //   area: 1,
+  //   season: 1,
+  // },
+  // // 第三关示例：12个常用字母（原id:3，现id:5）
+  // {
+  //   id: 5,
+  //   desc: "常用字母组合练习",
+  //   tasks: ["y", "z", "aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh", "ii", "jj"],
+  //   area: 1,
+  //   season: 1,
+  // },
+  //   // 随机两个字母组合关卡A
+  // {
+  //   id: 6,
+  //   desc: "随机两个字母组合A",
+  //   tasks: ["ff", "jj", "aa", "bb", "cc", "dd", "ee", "gg", "hh", "ii", "kk", "ll"],
+  //   area: 1,
+  //   season: 1,
+  // },
+  // // 随机两个字母组合关卡B
+  // {
+  //   id: 7,
+  //   desc: "随机两个字母组合B",
+  //   tasks: ["fj", "jf", "ab", "ba", "cd", "dc", "gh", "hg", "ik", "ki", "jl", "lj"],
+  //   area: 1,
+  //   season: 1,
+  // },
   // 英语常见两个字母单词关卡A
   {
     id: 8,
@@ -825,6 +825,345 @@ export const levels = [
       { word: "pear", cn: "梨" },
     ],
     area: 1,
+    season: 1,
+  },
+  // Blox Fruits 果实名关卡I
+  {
+    id: 51,
+    desc: "Blox Fruits 果实名I",
+    tasks: [
+      { word: "Rocket", cn: "火箭果" },
+      { word: "Spin", cn: "旋转果" },
+      { word: "Blade", cn: "刀刃果" },
+      { word: "Spring", cn: "弹簧果" },
+      { word: "Bomb", cn: "炸弹果" },
+      { word: "Smoke", cn: "烟雾果" },
+    ],
+    area: 2,
+    season: 1,
+  },
+  // Blox Fruits 果实名关卡II
+  {
+    id: 52,
+    desc: "Blox Fruits 果实名II",
+    tasks: [
+      { word: "Ice", cn: "冰果" },
+      { word: "Sand", cn: "沙果" },
+      { word: "Dark", cn: "黑暗果" },
+      { word: "Eagle", cn: "鹰果" },
+      { word: "Diamond", cn: "钻石果" },
+      { word: "Light", cn: "光果" },
+    ],
+    area: 2,
+    season: 1,
+  },
+  // Blox Fruits 果实名关卡III
+  {
+    id: 53,
+    desc: "Blox Fruits 果实名III",
+    tasks: [
+      { word: "magma", cn: "熔岩果" },
+      { word: "quake", cn: "震震果" },
+      { word: "buddha", cn: "佛祖果" },
+      { word: "love", cn: "爱情果" },
+      { word: "creation", cn: "创造果" },
+      { word: "spider", cn: "蜘蛛果" },
+    ],
+    area: 2,
+    season: 1,
+  },
+  // Blox Fruits 果实名关卡IV
+  {
+    id: 54,
+    desc: "Blox Fruits 果实名IV",
+    tasks: [
+      { word: "portal", cn: "传送果" },
+      { word: "lightning", cn: "闪电果" },
+      { word: "pain", cn: "痛苦果" },
+      { word: "blizzard", cn: "暴雪果" },
+      { word: "gravity", cn: "重力果" },
+      { word: "mammoth", cn: "猛犸果" },
+    ],
+    area: 2,
+    season: 1,
+  },
+  // Blox Fruits 果实名关卡V
+  {
+    id: 55,
+    desc: "Blox Fruits 果实名V",
+    tasks: [
+      { word: "shadow", cn: "影子果" },
+      { word: "venom", cn: "毒液果" },
+      { word: "control", cn: "控制果" },
+      { word: "gas", cn: "瓦斯果" },
+      { word: "spirit", cn: "灵灵果" },
+      { word: "leopard", cn: "豹豹果" },
+
+    ],
+    area: 2,
+    season: 1,
+  },
+  // Blox Fruits 果实名关卡VI
+  {
+    id: 56,
+    desc: "Blox Fruits 果实名VI",
+    tasks: [
+      { word: "dragon", cn: "龙果" },
+      { word: "spike", cn: "尖刺果" },
+      { word: "flame", cn: "火焰果" },
+      { word: "rubber", cn: "橡胶果" },
+      { word: "ghost", cn: "灵魂果" },
+      { word: "sound", cn: "声音果" },
+     ],
+    area: 2,
+    season: 1,
+  },
+  // Blox Fruits 果实名关卡VI
+  {
+    id: 57,
+    desc: "Blox Fruits 果实名VI",
+    tasks: [
+      { word: "t-rex", cn: "霸王龙果" },
+      { word: "dough", cn: "糯米果" },
+      { word: "yeti", cn: "雪人果" },
+      { word: "kitsune", cn: "狐妖果" },
+      { word: "phoenix", cn: "凤凰果" },
+     ],
+    area: 2,
+    season: 1,
+  },
+   // Roblox游戏名关卡I
+  {
+    id: 58,
+    desc: "Roblox游戏名I",
+    tasks: [
+      { word: "brookhaven", cn: "布鲁克海文" },
+      { word: "adopt me", cn: "收养我" },
+      { word: "blox fruits", cn: "布洛克斯水果" },
+      { word: "doors", cn: "门" },
+      { word: "murder mystery 2", cn: "谋杀之谜2" },
+      { word: "tower of hell", cn: "地狱塔" },
+    ],
+    area: 3,
+    season: 1,
+  },
+  // Roblox游戏名关卡II
+  {
+    id: 59,
+    desc: "Roblox游戏名II",
+    tasks: [
+      { word: "grow garden", cn: "培养花园" },
+      { word: "royale high", cn: "皇家高中" },
+      { word: "shindo life", cn: "神都人生" },
+      { word: "pet simulator x", cn: "宠物模拟器x" },
+      { word: "evade", cn: "逃脱" },
+      { word: "bedwars", cn: "起床战争" },
+    ],
+    area: 3,
+    season: 1,
+  },
+  // Roblox游戏名关卡III
+  {
+    id: 60,
+    desc: "Roblox游戏名III",
+    tasks: [
+      { word: "anime fighting simulator", cn: "动漫格斗模拟器" },
+      { word: "bee swarm simulator", cn: "蜂群模拟器" },
+      { word: "natural disaster survival", cn: "自然灾害求生" },
+      { word: "jailbreak", cn: "越狱" },
+      { word: "meepcity", cn: "米普城市" },
+      { word: "piggy", cn: "小猪" },
+    ],
+    area: 3,
+    season: 1,
+  },
+  // Roblox游戏名关卡IV
+  {
+    id: 61,
+    desc: "Roblox游戏名IV",
+    tasks: [
+      { word: "tower defense simulator", cn: "塔防模拟器" },
+      { word: "project slayers", cn: "鬼灭之刃" },
+      { word: "breaking point", cn: "临界点" },
+      { word: "flee the facility", cn: "逃离设施" },
+      { word: "mad city", cn: "疯狂城市" },
+      { word: "theme park tycoon 2", cn: "主题公园大亨2" },
+    ],
+    area: 3,
+    season: 1,
+  },
+  // Roblox游戏名关卡V
+  {
+    id: 62,
+    desc: "Roblox游戏名V",
+    tasks: [
+      { word: "speed run 4", cn: "极速跑酷4" },
+      { word: "work at a pizza place", cn: "比萨店打工" },
+      { word: "super golf", cn: "超级高尔夫" },
+      { word: "phantom forces", cn: "幻影部队" },
+      { word: "welcome to bloxburg", cn: "欢迎来到布洛克斯堡" },
+      { word: "dragon adventures", cn: "龙之冒险" },
+    ],
+    area: 3,
+    season: 1,
+  },
+    // 新增：游戏词汇分类 - 塞尔达传说
+  // area: 4 表示“游戏词汇-塞尔达”
+  {
+    id: 63,
+    desc: "塞尔达地点I",
+    tasks: [
+      { word: "Hyrule", cn: "海拉鲁" },
+      { word: "Kakariko", cn: "卡卡利科村" },
+      { word: "Gerudo", cn: "格鲁德" },
+      { word: "Zora", cn: "卓拉" },
+      { word: "Rito", cn: "利特" },
+      { word: "Korok", cn: "克洛格" },
+    ],
+    area: 4,
+    season: 1,
+  },
+  {
+    id: 64,
+    desc: "塞尔达地点II",
+    tasks: [
+      { word: "Lanayru", cn: "拉聂尔" },
+      { word: "Akkala", cn: "阿卡莱" },
+      { word: "Hebra", cn: "海布拉" },
+      { word: "Faron", cn: "法罗" },
+      { word: "Eldin", cn: "奥尔汀" },
+      { word: "Hateno", cn: "哈特诺村" },
+    ],
+    area: 4,
+    season: 1,
+  },
+  {
+    id: 65,
+    desc: "塞尔达材料",
+    tasks: [
+      { word: "Amber", cn: "琥珀" },
+      { word: "Opal", cn: "蛋白石" },
+      { word: "Topaz", cn: "黄玉" },
+      { word: "Ruby", cn: "红宝石" },
+      { word: "Sapphire", cn: "蓝宝石" },
+      { word: "Diamond", cn: "钻石" },
+    ],
+    area: 4,
+    season: 1,
+  },
+  {
+    id: 66,
+    desc: "塞尔达食物",
+    tasks: [
+      { word: "Meat", cn: "肉" },
+      { word: "Fish", cn: "鱼" },
+      { word: "Egg", cn: "蛋" },
+      { word: "Rice", cn: "米饭" },
+      { word: "Carrot", cn: "胡萝卜" },
+      { word: "Pumpkin", cn: "南瓜" },
+    ],
+    area: 4,
+    season: 1,
+  },
+  {
+    id: 67,
+    desc: "塞尔达生物",
+    tasks: [
+      { word: "Bokoblin", cn: "波克布林" },
+      { word: "Moblin", cn: "莫力布林" },
+      { word: "Lynel", cn: "莱尼尔" },
+      { word: "Hinox", cn: "西诺克斯" },
+      { word: "Chuchu", cn: "丘丘" },
+      { word: "Keese", cn: "奇斯蝙蝠" },
+    ],
+    area: 4,
+    season: 1,
+  },
+  {
+    id: 68,
+    desc: "塞尔达道具",
+    tasks: [
+      { word: "Sword", cn: "剑" },
+      { word: "Shield", cn: "盾" },
+      { word: "Bow", cn: "弓" },
+      { word: "Arrow", cn: "箭" },
+      { word: "Bomb", cn: "炸弹" },
+      { word: "Paraglider", cn: "滑翔伞" },
+    ],
+    area: 4,
+    season: 1,
+  },
+    {
+    id: 68,
+    desc: "塞尔达道具",
+    tasks: [
+      { word: "Torch", cn: "火把" },
+      { word: "Boomerang", cn: "回旋镖" },
+      { word: "Spear", cn: "长矛" },
+      { word: "Hammer", cn: "锤子" },
+      { word: "Hookshot", cn: "抓钩" },
+      { word: "Sheikah Slate", cn: "希卡之石" },
+      { word: "Potion", cn: "药水" },
+      { word: "Elixir", cn: "精华" },
+      { word: "Armor", cn: "护甲" },
+    ],
+    area: 4,
+    season: 1,
+  },
+      {
+    id: 68,
+    desc: "塞尔达",
+    tasks: [
+      { word: "Potion", cn: "药水" },
+      { word: "Elixir", cn: "精华" },
+      { word: "Armor", cn: "护甲" },
+      { word: "Heal", cn: "治疗" },
+      { word: "Freeze", cn: "冻结" },
+      { word: "Burn", cn: "燃烧" },
+    ],
+    area: 4,
+    season: 1,
+  },
+  {
+    id: 69,
+    desc: "塞尔达常见动词",
+    tasks: [
+      { word: "Climb", cn: "攀爬" },
+      { word: "Swim", cn: "游泳" },
+      { word: "Glide", cn: "滑翔" },
+      { word: "Cook", cn: "烹饪" },
+      { word: "Fight", cn: "战斗" },
+      { word: "Sneak", cn: "潜行" },
+    ],
+    area: 4,
+    season: 1,
+  },
+    {
+    id: 70,
+    desc: "塞尔达常见",
+    tasks: [
+      { word: "Tarrey", cn: "塔利村" },
+      { word: "Lookout", cn: "瞭望台" },
+      { word: "Shrine", cn: "神庙" },
+      { word: "Herb", cn: "草药" },
+      { word: "Wheat", cn: "小麦" },
+      { word: "Sugarcane", cn: "甘蔗" },
+    ],
+    area: 4,
+    season: 1,
+  },
+    {
+    id: 69,
+    desc: "塞尔达常见",
+    tasks: [
+      { word: "Milk", cn: "牛奶" },
+      { word: "Soup", cn: "汤" },
+      { word: "Stew", cn: "炖菜" },
+      { word: "Dragon", cn: "龙" },
+      { word: "Wolf", cn: "狼" },
+      { word: "Horse", cn: "马" },
+    ],
+    area: 4,
     season: 1,
   },
 ];

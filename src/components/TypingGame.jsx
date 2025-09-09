@@ -53,7 +53,7 @@ export default function TypingGame({ level, onBack }) {
     if (!rawTasks) return [];
     let arr = [];
     for (let i = 0; i < rawTasks.length; i++) {
-      for (let j = 0; j < 3; j++) {
+      for (let j = 0; j < 2; j++) {
         arr.push(rawTasks[i]);
       }
     }
